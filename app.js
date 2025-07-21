@@ -20,7 +20,7 @@ function exibirTextonaTela(tag, texto) {
 
 function exibirMensagemInicial() {
     exibirTextonaTela('h1', 'Jogo do número secreto');
-    exibirTextonaTela('p', 'Escolha um numero entre 1 e 10:');
+    exibirTextonaTela('p', 'Escolha um número entre 1 e 10:');
     
 }
 exibirTextonaTela('h1', 'Jogo do número secreto');
