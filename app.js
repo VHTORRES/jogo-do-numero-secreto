@@ -24,7 +24,7 @@ function exibirMensagemInicial() {
     
 }
 exibirTextonaTela('h1', 'Jogo do número secreto');
-exibirTextonaTela('p', 'Escolha um numero entre 1 e 10:');
+exibirTextonaTela('p', 'Escolha um número entre 1 e 10:');
 
 
 
@@ -40,9 +40,9 @@ function verificarChute() {
 
     } else {
         if (chute > numeroSecreto) {
-            exibirTextonaTela('p', `O numero secreto e menor`);
+            exibirTextonaTela('p', `O número secreto e menor`);
         } else {
-            exibirTextonaTela('p', `O numero secreto e maior`);
+            exibirTextonaTela('p', `O número secreto e maior`);
         }
         tentativas++
         limparCampo();
